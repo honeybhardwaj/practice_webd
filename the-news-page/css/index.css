@@ -1,0 +1,102 @@
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body{
+    padding: 10px;
+}
+header{
+    border-bottom: 3px solid black;
+}
+.main-heading{
+    padding: 0;
+    margin: 2rem 0;
+    text-align: center;
+    font-size: 75px;
+    font-weight: normal;
+    font-family: 'Great Vibes', cursive;
+}
+
+article{
+    padding:0 10px;
+    border-right: 1px solid black;
+}
+
+img{
+    width:100%;
+}
+.left, .right{
+    width:25%
+}
+.center{
+    width:50%;
+}
+.story-title{
+    font-size: 30px;
+    font-weight: normal;
+    font-style: italic;
+    text-align: center;
+}
+.row{
+    display:flex;
+    align-items: stretch;
+    width:100%;
+    border-bottom: 3px solid black;
+    border-left: 1px solid black;
+}
+.nav-list{
+    width:30%;
+    margin: 0;
+    border-right: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
+    padding-left: 0;
+
+}
+
+.item{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    list-style-type: none;
+    justify-content: center;
+}
+
+.i1{
+    background-color: #FFEAA7;
+}
+
+.i2{
+    background-color: #81ECEC;
+}
+
+.i3{
+    background-color: #55EFC4;
+}
+
+.i4{
+    background-color: #74B9FF;
+}
+
+.i5{
+    background-color: #A29BFE;
+}
+
+a{
+    Text-decoration: none;
+    font-size: 30px;
+    padding-left: 30px;
+    font-weight: bold;
+    font-family: "Futura";
+    color: #666;
+}
+.left2{
+    width:70%;
+}
+a:hover{
+    text-decoration: underline;
+}
